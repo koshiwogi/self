@@ -1,0 +1,91 @@
+.header{
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+	color: black;
+	font-size: 80px;
+	height:300px;
+
+
+}
+
+.header div {
+	padding-bottom: 0px;
+	padding: 0px;
+}
+
+.chikin {
+	display: flex;
+	height: 60px;
+	border-radius: 60px;
+	position: relative;
+	bottom: 350px;
+	left: 50px;
+}
+
+.main {
+	height: 900px;
+	background-image: url("img/05.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 70px;
+	border-radius: 300px;
+	padding-bottom: 300px;
+	}
+
+.chikin {
+	height: 200px;
+	border-radius: 50%;
+	width: 200px;
+}	
+
+.name {
+	list-style: none;
+	font-size: 70px;
+
+}
+
+.basket img {
+	height: 300px;
+}
+
+.basket img:hover{
+	background-color: white;
+	opacity:0.7;
+}
+
+.track img {
+	height: 300px;
+
+}
+
+.book img{
+	height: 300px;
+}
+
+.imgline {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	font-size: 50px;
+	text-align: center;
+	flex-direction: column;
+}
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+	color: #76cfcc;
+}
+
+.footer {
+	text-align: center;
+	background-color: yellow;
+	font-size: 50px;
+}
